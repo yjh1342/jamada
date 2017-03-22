@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .content{
+            top:100px;
+            position:relative;
+            height:102px;
+            border: 1px solid red;
+        }
+        .change{
+            display: inline-block;
+            width:100px;
+            height:100px;
+            border:1px solid black;
+        }
+    </style>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="change i1"></div>
+        <div class="change i2"></div>
+
+    </div>
+</body>
+<script>
+    console.log(new Boolean(0))
+     var i1=document.querySelector('.i1')
+     var iT=i1.offsetParent.offsetTop
+     console.log(iT)
+</script>
+</html>
